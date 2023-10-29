@@ -35,7 +35,7 @@ const Formulario = () => {
   return (
     <>
         <div>
-        <h2>Calcule o seu IMC</h2>
+        <h2>Calcule o IMC</h2>
           <form className={styles.Form}>
           <p>Peso: <input  type="number" onChange={e => setWeight(e.target.value)} /></p>
           <p>Altura:<input type="float" onChange={e => setHeight(e.target.value)} /></p>
