@@ -4,7 +4,7 @@ import styles from './Formulario.module.css'
 const Formulario = () => {
   const [weight,setWeight] = useState(0);
   const [height,setHeight] = useState(0);
-  const [respostaEstaVisivel, setRespostaEstaVisivel] = useState(true);
+  const [respostaEstaVisivel, setRespostaEstaVisivel] = useState(false);
 
   const imc = () =>{
     let calculo = weight / ((height * 2));
